@@ -12,7 +12,7 @@ module.exports = {
   // Webpack needs to know where to start the bundling process,
   // so we define the main JS and Sass files, both under
   // the './src' directory
-  entry: ['./src/scripts/script.js', './src/styles/main.scss'],
+  entry: ['./src/scripts/main.js', './src/styles/main.scss'],
 
   // This is where we define the path where Webpack will place
   // the bundled JS file
