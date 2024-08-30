@@ -1,1 +1,1 @@
-npx eslint public/assets/scripts/bundle.js
+npx eslint src/scripts/main.js

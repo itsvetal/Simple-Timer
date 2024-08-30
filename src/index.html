@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="../src/styles/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment-timer@1.3.0/lib/moment-timer.js"></script>
 </head>
 <body>
-<div class="container">
-    <p></p>
-</div>
-
-<script src="scripts/main.js"></script>
+<header>
+    <h1>Timer</h1>
+</header>
+<section>
+    <div class="container">
+        <p id="label">Вкажіть час в хвилинах</p>
+        <div class="set_time"></div>
+        <p id="timer"></p>
+    </div>
+</section>
+<script type="module" src="scripts/main.js"></script>
 </body>
 </html>
