@@ -10,32 +10,36 @@
 </head>
 <body>
 <div class="container">
-<header>
-    <h2>Timer</h2>
-</header>
-<section>
-    <div class="content">
-        <p id="label">Вкажіть час в хвилинах</p>
-        <div class="set_time">
-            <button id="minus_button" class="set_button" onclick="increaseNumber()">
-                <svg xmlns="http://www.w3.org/2000/svg"
-                     height="48px" viewBox="0 -960 960 960"
-                     width="48px" fill="#2B4074">
-                    <path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/>
-                </svg>
-            </button>
-            <p id="value">0</p>
-            <button id="plus_button" class="set_button">
-                <svg xmlns="http://www.w3.org/2000/svg"
-                     height="48px" viewBox="0 -960 960 960"
-                     width="48px" fill="#2B4074"><path d="M200-450v-60h560v60H200Z"/>
-                </svg>
-            </button>
+    <header>
+        <h2>Timer</h2>
+    </header>
+    <section>
+        <div class="content">
+            <p id="label">Вкажіть час в хвилинах</p>
+            <div class="set_time">
+                <button id="minus_button" class="set_button">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         height="48px" viewBox="0 -960 960 960"
+                         width="48px" fill="#2B4074"><path d="M200-450v-60h560v60H200Z"/>
+                    </svg>
+                </button>
+                <p id="value">0</p>
+                <button id="plus_button" class="set_button">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         height="48px" viewBox="0 -960 960 960"
+                         width="48px" fill="#2B4074">
+                        <path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/>
+                    </svg>
+                </button>
+            </div>
+            <div>
+                <button id="start_button" class="action_buttons">Start</button>
+                <button id="stop_button" class="action_buttons">Stop</button>
+                <button id="reset_button" class="action_buttons">Reset</button>
+            </div>
+            <p id="timer"></p>
         </div>
-    <button id="start_button">Start</button>
-        <p id="timer"></p>
-    </div>
-</section>
+    </section>
 </div>
 <script src="./assets/scripts/bundle.js"></script>
 </body>

@@ -9,9 +9,10 @@
 
 .container {
   @extend %position;
+  min-height: 430px;
   box-sizing: border-box;
   margin-top: 20px;
-  background-image: radial-gradient(white, yellow, brown);
+  background-image: linear-gradient(#b37700, #fff);
   font-family: "Rubik", monospace;
 
   header {
@@ -25,6 +26,10 @@
       font-size: 30px;
     }
 
+    button {
+      border-radius: 5px;
+    }
+
     .set_time {
       display: flex;
       flex-direction: row;
@@ -33,13 +38,15 @@
 
       button {
         margin: 20px;
+        cursor: pointer;
       }
     }
 
-    #start_button {
+    .action_buttons {
       font-size: 20px;
       height: 40px;
       width: 100px;
+      cursor: pointer;
     }
   }
 }
