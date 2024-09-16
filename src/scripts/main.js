@@ -4,15 +4,7 @@
  * Import the "moment" library
  */
 import moment from "moment";
-
-/**
- * Import localization
- */
 import 'moment/locale/uk'
-
-/**
- * Import the "moment-timer" plugin for the "moment" library
- */
 import "moment-timer";
 
 /**
