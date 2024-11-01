@@ -131,11 +131,12 @@ function startTimer() {
         });
 
     //Add event listener to the reset button and reset the timer on the click
-    document.getElementById('reset_button')
-        .addEventListener('click', () => {
+    document
+        .getElementById('reset_button').addEventListener('click', () => {
             timer.stop();
             clearInterval(interval);
-            remainingTime = null;
+            remainingTime =
+                null;
 
             /*
             Reset HTML elements that displaying the label of the timer
