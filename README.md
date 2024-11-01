@@ -44,3 +44,7 @@ npm run build
 Will compile, minify and autoprefix Sass to CSS. Will Minify and uglify JavaScript and output the bundled assets to `./public/assets`.
 
 After building for production you can take the `./public` directory and deploy it.
+
+## My timer
+
+You can see my timer by visiting the page: [My simple timer](https://itsvetal.github.io/Simple-Timer/)
