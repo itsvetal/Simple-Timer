@@ -9,13 +9,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="container">
     <header>
         <h2>Timer</h2>
     </header>
     <section>
         <div class="content">
-            <p id="label">Вкажіть час в хвилинах</p>
+            <div class="display_time">
+                <p id="label">Вкажіть час в хвилинах</p>
+                <p id="timer"></p>
+            </div>
             <div class="set_time">
                 <button id="minus_button" class="set_button">
                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -37,10 +39,9 @@
                 <button id="stop_button" class="action_buttons">Stop</button>
                 <button id="reset_button" class="action_buttons">Reset</button>
             </div>
-            <p id="timer"></p>
+            <p>Щоб скинути таймер натисніть кнопку "Reset"</p>
         </div>
     </section>
-</div>
 <script src="./assets/scripts/bundle.js"></script>
 </body>
 </html>
